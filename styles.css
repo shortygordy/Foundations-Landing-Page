@@ -45,9 +45,62 @@ body {
 }
 
 .nav a:hover {
-    color: yellow;
+    color: #f4b81c;
 }
 
-body div {
-    border: 3px red solid;
+.header {
+    background-color: #1f2937;
+    height: 600px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 40px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 40px;
+}
+
+.left-part {
+    max-width: 400px;
+    flex-shrink: 0;
+}
+
+.header img {
+    max-width: 600px;
+    margin-right: -40px;
+    filter: drop-shadow(0px 0px 7px rgb(0, 0, 0));
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button span {
+    color: white;
+    background-color: #3882F6;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
+.button span:hover {
+    background-color: #f4b81c;
+    color: #1f2937;
+}
+
+.header img:hover {
+    filter: drop-shadow(0px 0px 7px rgb(255, 255, 255));
 }

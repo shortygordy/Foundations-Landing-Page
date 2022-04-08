@@ -79,6 +79,10 @@ body {
     flex-shrink: 0;
 }
 
+.left-part p {
+    line-height: 1.5;
+}
+
 .header img {
     max-width: 600px;
     margin-right: -40px;
@@ -116,6 +120,7 @@ body {
 
 .heading h1 {
     margin-bottom: 30px;
+    font-weight: lighter;
 }
 
 .boxes {
@@ -131,13 +136,14 @@ body {
 
 .box img {
     width: 200px;
-    border: #f4b81c solid 5px;
-    border-radius: 25px;
 }
 
 .section p {
+    margin-top: 10px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .quote {
@@ -194,4 +200,18 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.footer {
+    height: 70px;
+    background-color: #1f2937;
+}
+
+.footer .container {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    color: #F9FAF8;
 }

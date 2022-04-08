@@ -129,12 +129,10 @@ body {
     align-items: center;
 }
 
-.box {
+.box img {
     width: 200px;
-    height: 200px;
-    border: 3px #3882F6 solid;
-    border-radius: 20px;
-    margin-bottom: 15px;
+    border: #f4b81c solid 5px;
+    border-radius: 25px;
 }
 
 .section p {
@@ -143,8 +141,8 @@ body {
 }
 
 .quote {
-   background-color: #E5E7EB;
-   height: 400px; 
+    background-color: #E5E7EB;
+    height: 400px;
 }
 
 .quote .container {
@@ -168,4 +166,32 @@ body {
     margin-right: 150px;
     align-self: flex-end;
     font-size: 20px;
+}
+
+.action {
+    height: 300px;
+}
+
+.action .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container .backdrop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    border-radius: 10px;
+    color: #E5E7EB;
+    width: 1100px;
+    height: 150px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
